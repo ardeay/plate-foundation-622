@@ -6,7 +6,7 @@
 		<doctype>html5</doctype>
 		<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"/>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"/>
 	</head>
 	
 	
@@ -24,9 +24,9 @@
 			<!-- each content set needs to be preloaded with content, you can see that the xml tag names below match the field names above-->
 			<items>
 				<item link_title="Homepage" path_part="zesty_home"> <!-- the path part zesty_home sets the homepage--> 
-					<title><![CDATA[Starting Foundation]]></title>
+					<title><![CDATA[Welcome to Foundation: Zesty.io Blueprint]]></title>
 					<!-- wrapping content in CDATA is neccesary -->
-					<content><![CDATA[<p>Stop coding non-responsive sites. Let users view sites from anywhere.</p>]]></content>
+					<content><![CDATA[<p>To get going, this file (homepage.tpl) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>]]></content>
 					<image><![CDATA[https://raw.githubusercontent.com/zesty-io/plate-starting-foundation/master/shield.png]]></image>
 				</item>
 			</items>
@@ -60,7 +60,7 @@
 	<!-- clippings follow the same pattern as content ingredients -->
 	<clippings>
 		<text name="site_name" name_friendly="Site Name" required="1">
-			<![CDATA[Starting Foundation]]>
+			<![CDATA[Foundation 6.2.2]]>
 		</text>
 		
 		<images name="logo" name_friendly="Site Logo" limit="1">
@@ -69,9 +69,6 @@
 		
 		<text name="footer_text" name_friendly="Footer Text">
 			<![CDATA[Footer text can be updated in Content Clippings.]]>
-		</text>
-		<text name="dustin_rules" name_friendly="Dustin Rules">
-			<![CDATA[New defualt thing]]>
 		</text>
 		
 	</clippings>
